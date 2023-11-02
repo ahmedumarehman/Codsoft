@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="num1" class="display" placeholder="Enter number 1">
+        <input type="text" id="num2" class="display" placeholder="Enter number 2">
+        <div class="buttons">
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">*</button>
+            <button onclick="divide()">/</button>
+        </div>
+        <div class="result">
+            Result: <span id="result">0</span>
+        </div>
+    </div>
+    <script src="calculations.js"></script>
+</body>
+</html>
